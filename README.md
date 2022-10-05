@@ -3,12 +3,12 @@
 ### Reference Documentation
 
 Project contains two endpoint 
-* update prices it gets CSV data in body: [POST] /new/prices
+* update prices: it gets CSV data in body: [POST] /new/prices
 * show updated price: [GET] /new/prices
 
 # curls of endpoints
 
-To update price: 
+To update prices: 
 
 `
 curl --location --request POST 'localhost:8080/new/prices' 
