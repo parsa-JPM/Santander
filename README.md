@@ -1,20 +1,21 @@
 # Getting Started
 
-> Java 17 is used 
-> H2 is used as database you just need to boot project
+> Java 17 is required to run
+
+> H2 is used as database
 
 ### Reference Documentation
 
-Project contains two endpoint 
+Project contains two endpoint
 * update prices: it gets CSV data in body: [POST] /new/prices
 * show updated price: [GET] /new/prices
 
 # endpoints curls
 
-To update prices: 
+To update prices:
 
 `
-curl --location --request POST 'localhost:8080/new/prices' 
+curl --location --request POST 'localhost:8080/new/prices'
 --header 'Content-Type: text/plain'
 --data-raw '106, EUR/USD, 8,1.2000,01-06-2020 12:01:01:001
 107, EUR/JPY, 119.60,119.90,01-06-2020 12:01:02:002
