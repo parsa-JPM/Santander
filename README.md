@@ -6,7 +6,7 @@ Project contains two endpoint
 * update prices: it gets CSV data in body: [POST] /new/prices
 * show updated price: [GET] /new/prices
 
-# curls of endpoints
+# endpoints curls
 
 To update prices: 
 
