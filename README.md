@@ -1,5 +1,8 @@
 # Getting Started
 
+> Java 17 is used 
+> H2 is used as database you just need to boot project
+
 ### Reference Documentation
 
 Project contains two endpoint 
@@ -26,4 +29,3 @@ To show prices in JSON:
 curl --location --request GET 'localhost:8080/new/prices'
 `
 
-> H2 is used as database you just need to boot project
